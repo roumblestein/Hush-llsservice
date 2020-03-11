@@ -69,3 +69,54 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    width: 18%;
+    padding-left: 4%;
+}
+
+
+nav {
+    float: right;
+    padding-right: 2%;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: 70px;
+        padding-top: 25px;
+        position: relative;
+    }
+
+    nav a {
+        color: #444;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        nav a::before {
+            content: "";
+            display: block;
+            height: 5px;
+            width: 0%;
+            background-color: #c6211f;
+            position: absolute;
+            top: 0;
+            transition: all ease-in-out 150ms;
+        }
+
+        nav a:hover::before {
+            width: 100%;
+        }
