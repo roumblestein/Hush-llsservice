@@ -18,6 +18,12 @@ a {
   border-color: #1861ac;
 }
 
+.navbar-inverse {
+    background-color: #d0d0d0;
+    border-color: #74D6FF;
+    color: #444;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
@@ -69,3 +75,62 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    width: 18%;
+    padding-left: 4%;
+
+}
+
+.noHover:hover::before {
+    background: none;
+    visibility: hidden;
+    display: none;
+}
+
+nav {
+    float: right;
+    padding-right: 2%;
+    display: inline-block;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: 70px;
+        padding-top: 25px;
+        position: relative;
+    }
+
+    nav a {
+        color: #444;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        nav a::before {
+            content: "";
+            display: block;
+            height: 10px;
+            width: 0%;
+            background-color: #c6211f;
+            position: absolute;
+            top: 48px;
+            transition: all ease-in-out 150ms;
+        }
+
+        nav a:hover::before {
+            width: 100%;
+        }
+
