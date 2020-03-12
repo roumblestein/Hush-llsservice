@@ -18,6 +18,12 @@ a {
   border-color: #1861ac;
 }
 
+.navbar-inverse {
+    background-color: #d0d0d0;
+    border-color: #74D6FF;
+    color: #444;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
@@ -75,12 +81,19 @@ body {
     padding: 10px 0;
     width: 18%;
     padding-left: 4%;
+
 }
 
+.noHover:hover::before {
+    background: none;
+    visibility: hidden;
+    display: none;
+}
 
 nav {
     float: right;
     padding-right: 2%;
+    display: inline-block;
 }
 
     nav ul {
@@ -109,14 +122,15 @@ nav {
         nav a::before {
             content: "";
             display: block;
-            height: 5px;
+            height: 10px;
             width: 0%;
             background-color: #c6211f;
             position: absolute;
-            top: 0;
+            top: 48px;
             transition: all ease-in-out 150ms;
         }
 
         nav a:hover::before {
             width: 100%;
         }
+
