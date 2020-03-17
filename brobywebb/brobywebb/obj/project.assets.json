@@ -5994,27 +5994,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macka\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ville\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macka\\Documents\\GitHub\\Hush-llsservice\\brobywebb\\brobywebb\\brobywebb.csproj",
+      "projectUniqueName": "C:\\Users\\ville\\Desktop\\Hush-llsservice\\brobywebb\\brobywebb\\brobywebb.csproj",
       "projectName": "brobywebb",
-      "projectPath": "C:\\Users\\macka\\Documents\\GitHub\\Hush-llsservice\\brobywebb\\brobywebb\\brobywebb.csproj",
-      "packagesPath": "C:\\Users\\macka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macka\\Documents\\GitHub\\Hush-llsservice\\brobywebb\\brobywebb\\obj\\",
+      "projectPath": "C:\\Users\\ville\\Desktop\\Hush-llsservice\\brobywebb\\brobywebb\\brobywebb.csproj",
+      "packagesPath": "C:\\Users\\ville\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ville\\Desktop\\Hush-llsservice\\brobywebb\\brobywebb\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\macka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ville\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

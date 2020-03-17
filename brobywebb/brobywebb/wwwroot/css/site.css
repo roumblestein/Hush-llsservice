@@ -140,3 +140,43 @@ nav {
     font-size: 0;
     line-height: 0
 }
+
+
+.row:before {
+    content: "";
+    display:table;
+}
+
+
+.partners {
+    display: block;
+    margin-left: 78px;
+    margin-right: 70px;
+    padding: 5px;
+    
+}
+
+.garantlogga {
+    width: 50%;
+    margin-left: 105px;
+}
+
+
+
+.row:after {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    text-transform:uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
