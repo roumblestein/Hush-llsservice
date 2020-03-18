@@ -1,8 +1,89 @@
 ﻿@page
 @model brobywebb.ServiceModel
 @{
-    ViewData["Title"] = "Service";
+    ViewData["Title"] = "Felanmälan";
 }
 
 <h1>Service</h1>
 
+<head runat="server">
+<meta charset="utf-8" />
+    <title></title>    
+    
+    <link rel="stylesheet" href="~/css/site.css" />
+
+   
+</head>
+<body>
+    <form id="form1" runat="server">   
+    </form>
+    
+  
+    <hr />
+
+    <div id ="fifty" class="fifty">
+    <div class="column">
+        
+<form action="/fel_rapport.asp">
+
+     
+    <label for="fd_nummer">FD-nummer </label> <br>
+    <input id="fd_nummer" type="text" /> <br /> 
+    <label for="inköpsställe">Inköpsställe </label> <br>
+    <input id="inköpsställe" type="text" /> <br /> 
+    <label for="garanti">Garantilängd </label> <br>
+    <input id="garanti" type="text" /><br />
+     </form>
+        </div>
+   
+    <div class="column">
+    
+    <label for="e_nummer">E-nummer </label> <br>
+    <input id="e_nummer" type="text" />  <br /> 
+    <label for="z_nummer">Z-nummer</label> <br>
+    <input id="z_nummer" type="text" />  <br /> 
+    <label for="inköpsdatum">Inköpsdatum </label> <br>
+    <input id="inköpsdatum" type="text" />  <br />
+     
+    </div>
+        </div>
+
+         <div id ="fifty" class="fifty">
+    <div class="column">
+
+<form action="/fel_rapport.asp">
+
+
+    <label for="namn">Namn </label> <br>
+    <input id="namn" type="text" /> <br />
+ 
+    <label for="efternamn">Efternamn </label> <br>
+    <input id="efternamn" type="text" /> <br />
+</form>
+  </div>
+   
+    <div class="column">
+    
+    <label for="nummer">Nummer </label> <br>
+    <input id="nummer" type="text" /> <br />
+ 
+    <label for="adress">Adress </label> <br>
+    <input id="adress" type="text" /> <br />
+    <br>
+ <input type="submit" value="Submit">
+ </div>
+        </div>
+
+
+
+    </body>
+</html>
+
+@* 
+<body>
+Welcome
+<%
+response.write(request.querystring("namn"))
+response.write(" " & request.querystring("efternamn"))
+%>
+</body> *@
